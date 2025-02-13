@@ -4,9 +4,6 @@
   "newProjectRoot": "projects",
   "projects": {
     "vitacare-frontend": {
-      "i18n": {
-        "sourceLocale": "es-ES"
-      },
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {

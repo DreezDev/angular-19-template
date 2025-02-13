@@ -1,5 +1,4 @@
 @import 'tailwindcss';
-@import 'ngx-toastr/toastr';
 
 @theme {
   --color-primary-50: #f1fcfa;
