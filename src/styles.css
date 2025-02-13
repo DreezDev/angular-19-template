@@ -1,0 +1,22 @@
+@import 'tailwindcss';
+@import 'ngx-toastr/toastr';
+
+@theme {
+  --color-primary-50: #f1fcfa;
+  --color-primary-100: #cff8f1;
+  --color-primary-200: #9ff0e3;
+  --color-primary-300: #68e0d2;
+  --color-primary-400: #4dcec3;
+  --color-primary-500: #1fada3;
+  --color-primary-600: #168b85;
+  --color-primary-700: #166f6c;
+  --color-primary-800: #165957;
+  --color-primary-900: #174a48;
+  --color-primary-950: #072c2c;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+html {
+  transition: background-color 0.2s ease-in-out;
+}
